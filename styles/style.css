@@ -1,0 +1,32 @@
+/* variable style */
+:root{
+    --primary-clr: #fff;
+    --secondary-clr: #131318;
+    --gray: #5A5A5D;
+    --dark-gray: #424247;
+    --dark-clr: rgba(19, 19, 24, 0.70); 
+    --orange: #FF5400;
+    --primary-fs: 16px;
+    --primary-fm: 'Mulish', sans-serif;
+    --secondary-fm: 'Inter', sans-serif;
+}
+/* Reset default styles */
+*,
+*::after,
+*::before{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+/* Style the body element */
+body {
+  font-size: var(--fs-base);
+}
+/* shared or common style */
+.container{
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
