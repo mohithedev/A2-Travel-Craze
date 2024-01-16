@@ -83,8 +83,8 @@ ul {
   gap: 30px;
   align-items: center;
 }
-.logo{
-	gap: 10px;
+.logo {
+  gap: 10px;
 }
 .logo .navigation_title {
   font-size: 2.2rem;
@@ -221,6 +221,44 @@ main {
 }
 /* destination style end */
 
+/* history section style start */
+#history {
+  background: #f7e95020 url("../Images/world_map.png") no-repeat center;
+  background-size: cover;
+  border-radius: 15px;
+  padding: 130px;
+  text-align: center;
+}
+.history_card_container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 20px;
+  margin-top: 100px;
+}
+.history_card {
+  background: var(--primary-clr);
+  color: var(--secondary-clr);
+  width: 220px;
+  height: 180px;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 1px 2px 15px var(--gray);
+}
+.history_card i {
+  font-size: 2rem;
+  color: var(--orange);
+}
+.history_card .history_tile {
+  font-size: 2.2rem;
+  font-family: var(--secondary-fm);
+  margin: 15px 0;
+}
+.history_card .description {
+  margin: 0;
+}
+/* history section style end */
+
 /* choose section start */
 #choose {
   text-align: center;
@@ -259,66 +297,66 @@ main {
 /* choose section end */
 
 /* deals section style start */
-#deals{
-	text-align: center;
+#deals {
+  text-align: center;
 }
-.deals_card_container{
-	min-height: 500px;
-	border-radius: 16px;
-	background: url("../Images/Group_39.png") no-repeat center;
-	background-size: cover;
-	padding: 55px;
-	display: flex;
-	justify-content: end;
-	margin-bottom: 25px;
+.deals_card_container {
+  min-height: 500px;
+  border-radius: 16px;
+  background: url("../Images/Group_39.png") no-repeat center;
+  background-size: cover;
+  padding: 55px;
+  display: flex;
+  justify-content: end;
+  margin-bottom: 25px;
 }
-.deals_card{
-	max-width: 580px;
-	min-height: 390px;
-	padding: 50px;
-	background: rgba(255, 255, 255, 0.8);
-	border: 2px solid var(--primary-clr);
-	border-radius: 16px;
-	text-align: left;
+.deals_card {
+  max-width: 580px;
+  min-height: 390px;
+  padding: 50px;
+  background: rgba(255, 255, 255, 0.8);
+  border: 2px solid var(--primary-clr);
+  border-radius: 16px;
+  text-align: left;
 }
-.deals_card_icon{
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
+.deals_card_icon {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
-.deals_card_icon .fa-solid{
-	color: var(--orange);
+.deals_card_icon .fa-solid {
+  color: var(--orange);
 }
-.deals_card_icon .description{
-	margin: 0;
+.deals_card_icon .description {
+  margin: 0;
 }
-.deals_card .deals_price{
-	color: var(--orange);
-	font-size: 20px;
-	font-weight: 800;
-	margin-bottom: 30px;
+.deals_card .deals_price {
+  color: var(--orange);
+  font-size: 20px;
+  font-weight: 800;
+  margin-bottom: 30px;
 }
-.deals_package .deals_card_container:nth-child(2){
-	background: url("../Images/Group_40.png") no-repeat center;
-	background-size: cover;
-	justify-content: start;
+.deals_package .deals_card_container:nth-child(2) {
+  background: url("../Images/Group_40.png") no-repeat center;
+  background-size: cover;
+  justify-content: start;
 }
 /* deals section style end */
 
 /* perfect place section style start */
-#prefect_place{
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	gap: 50px;
+#prefect_place {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
 }
-.perfect_place_video iframe{
-	border-radius: 15px;
+.perfect_place_video iframe {
+  border-radius: 15px;
 }
-.perfect_place_content .list .description{
-	color: var(--secondary-clr);
-	font-weight: 700;
-} 
+.perfect_place_content .list .description {
+  color: var(--secondary-clr);
+  font-weight: 700;
+}
 /* perfect place section style end */
 
 /* newsletter style start */
@@ -378,29 +416,29 @@ main {
 /* footer style start */
 footer {
   background: rgba(19, 19, 24, 0.05);
-	padding: 20px 0;
-	text-align: center;
+  padding: 20px 0;
+  text-align: center;
 }
-footer .logo{
-	justify-content: center;
+footer .logo {
+  justify-content: center;
 }
-.footer_content{
-	padding: 10px;
-	border-bottom: 1px solid var(--gray);
-	margin-bottom: 20px;
+.footer_content {
+  padding: 10px;
+  border-bottom: 1px solid var(--gray);
+  margin-bottom: 20px;
 }
-footer .social_icon{
+footer .social_icon {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 20px;
 }
-.social_icon a{
+.social_icon a {
   text-decoration: none;
   color: var(--secondary-clr);
   font-size: 1.5rem;
 }
-footer .footer_content .description{
-	font-family: var(--secondary-fm);
+footer .footer_content .description {
+  font-family: var(--secondary-fm);
 }
 /* footer style end */
