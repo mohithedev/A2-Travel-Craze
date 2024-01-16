@@ -1,6 +1,7 @@
 /* for mobile devices */
 @media screen and (max-width: 576px) {
-    #navbar , ul{
+    #navbar , ul,
+    #popular_tours{
         flex-direction: column;
     }
     .banner{
@@ -18,9 +19,21 @@
     form input, select {
         width: 100%;
     }
+    .popular_tours_content .heading{
+        font-size: 1.3rem;
+    }
+    #popular_tours .popular_tours_img img{
+        width: 100%;
+    }
 }
 
 /* for medium devices */
 @media screen and (min-width: 577px) and (max-width: 992px) {
-    
+    #popular_tours{
+        flex-direction: column;
+        text-align: center;
+    }
+    #popular_tours .popular_tours_content .description, ul li{
+        text-align: left;
+    }
 }
