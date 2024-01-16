@@ -2,7 +2,8 @@
 @media screen and (max-width: 576px) {
   #navbar,
   ul,
-  #popular_tours {
+  #popular_tours,
+  #newsletter {
     flex-direction: column;
   }
   .banner {
@@ -59,11 +60,29 @@
   .choose_card_container {
     grid-template-columns: 1fr;
   }
+  #newsletter{
+    gap: 10px;
+  }
+  .newsletter_img img {
+    width: 100%;
+  }
+  .save_up{
+    width: 160px;
+    height: 80px;
+    padding: 5px;
+  }
+  .save_up .save_up_site{
+    font-size: 1rem;
+  }
+  .save_up .save_up_heading{
+    font-size: 1.2rem;
+  }
 }
 
 /* for medium devices */
 @media screen and (min-width: 577px) and (max-width: 992px) {
-  #popular_tours {
+  #popular_tours,
+    #newsletter{
     flex-direction: column;
     text-align: center;
   }
