@@ -21,7 +21,8 @@
 }
 /* Style the body element */
 body {
-  font-size: var(--fs-base);
+  font-family: var(--primary-fm);
+  font-size: var(--primary-fs);
 }
 /* shared or common style */
 .container{
@@ -29,4 +30,92 @@ body {
     margin: 0 auto;
     padding: 20px;
 }
+.description{
+  font-weight: 400;
+  line-height: 26px;
+}
+button{
+	background: var(--orange);
+	color: var(--primary-clr);
+	font-weight: 700;
+	border-radius: 8px;
+	border: 0;
+	outline: 0;
+	padding: 15px 25px;
+	cursor: pointer;
+}
+/* header area style start */
+/* nav style start */
+#navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#navbar
+.logo,
+ul{
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+.logo .navigation_title{
+	font-size: 2.2rem;
+	font-weight: 800;
+	color: var(--secondary-clr);
+}
+#navbar li{
+	font-weight: 400;
+	font-size: 1.2rem;
+}
+#navbar li a{
+	text-decoration: none;
+	color: var(--gray);
+}
+#navbar .orange{
+	color: var(--orange);
+}
+/* nav style end */
+
+/* banner style start */
+.banner{
+	background: url("../Images/Group_13.png") no-repeat center;
+	background-size: cover;
+	object-fit: cover;
+	min-height: 500px;
+	margin: 100px auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+.banner_content{
+  max-width: 650px;
+  color: var(--primary-clr);
+}
+.banner_title{
+  font-size: 4rem;
+  font-weight: 800;
+  margin-bottom: 24px;
+}
+.banner_content .description{
+  margin-bottom: 40px;
+}
+.banner form{
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.30);
+  padding: 15px;
+}
+form input, select{
+	width: 25%;
+	padding: 15px;
+	font-weight: 400;
+	font-family: var(--primary-fm);
+	border: none;
+	outline: 0;
+	border-radius: 8px;
+	color: var(--dark-clr);
+}
+/* banner style end */
+/* header area style end */
 
