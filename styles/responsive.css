@@ -6,6 +6,13 @@
   #newsletter {
     flex-direction: column;
   }
+  ul{
+    gap: 10px;
+  }
+  .logo img{
+    width: 30px;
+    height: 35px;
+  }
   .banner {
     border-radius: 8px;
     padding: 30px 0;
@@ -60,29 +67,32 @@
   .choose_card_container {
     grid-template-columns: 1fr;
   }
-  #newsletter{
+  #newsletter {
     gap: 10px;
   }
   .newsletter_img img {
     width: 100%;
   }
-  .save_up{
+  .save_up {
     width: 160px;
     height: 80px;
     padding: 5px;
   }
-  .save_up .save_up_site{
+  .save_up .save_up_site {
     font-size: 1rem;
   }
-  .save_up .save_up_heading{
+  .save_up .save_up_heading {
     font-size: 1.2rem;
+  }
+  footer .logo .navigation_title {
+    font-size: 1.5rem;
   }
 }
 
 /* for medium devices */
 @media screen and (min-width: 577px) and (max-width: 992px) {
   #popular_tours,
-    #newsletter{
+  #newsletter {
     flex-direction: column;
     text-align: center;
   }
