@@ -1,11 +1,15 @@
 /* for mobile devices */
 @media screen and (max-width: 576px) {
+    /* shared or common */
   #navbar,
   ul,
   #popular_tours,
-  #newsletter {
+  #newsletter,
+  .deals_card_container,
+  #prefect_place{
     flex-direction: column;
   }
+  /* for nav */
   ul{
     gap: 10px;
   }
@@ -13,6 +17,7 @@
     width: 30px;
     height: 35px;
   }
+  /* for banner */
   .banner {
     border-radius: 8px;
     padding: 30px 0;
@@ -29,12 +34,14 @@
   select {
     width: 100%;
   }
+  /* for popular tours */
   .popular_tours_content .heading {
     font-size: 1.3rem;
   }
   #popular_tours .popular_tours_img img {
     width: 100%;
   }
+    /* for destination */
   .destination_img_container {
     grid-template-columns: 1fr;
     grid-template-rows: repeat(7, 170px);
@@ -64,9 +71,50 @@
   #destination .heading {
     font-size: 1.5rem;
   }
+  /* for choose */
   .choose_card_container {
     grid-template-columns: 1fr;
   }
+  /* for deals */
+  #deals .heading{
+    font-size: 1.3rem;
+  }
+  .deals_card_container{
+    min-height: 550px;
+    padding: 16px;
+    align-items: center;
+  }
+  .deals_package .deals_card_container:nth-child(2){
+    justify-content: end;
+  }
+  .deals_card_container .deals_card 
+  .deals_card_icon,
+  .description, 
+  .sub_heading,
+  .deals_price,
+  .primary_btn{
+    margin-bottom: 0px;
+  }
+  .deals_card_container .deals_card{
+    max-width: 300px;
+    min-height: 290px;
+    padding: 20px;
+  }
+  .deals_card_icon{
+    flex-wrap: wrap;
+  }
+  /* for perfect place */
+  #perfect_place{
+    gap: 10px;
+  }
+  .perfect_place_content .heading{
+    font-size: 1.3rem;
+  } 
+  .perfect_place_video iframe{
+    width: 100%;
+    height: 100%;
+  }
+  /* for newsletter */
   #newsletter {
     gap: 10px;
   }
@@ -84,15 +132,19 @@
   .save_up .save_up_heading {
     font-size: 1.2rem;
   }
+  /* for footer */
   footer .logo .navigation_title {
     font-size: 1.5rem;
   }
 }
 
+
 /* for medium devices */
 @media screen and (min-width: 577px) and (max-width: 992px) {
+    /* shared or common */
   #popular_tours,
-  #newsletter {
+  #newsletter,
+  #prefect_place {
     flex-direction: column;
     text-align: center;
   }
@@ -121,10 +173,21 @@
   .box_7 {
     grid-column: 7/-1;
   }
+  /* for choose */
   .choose_card_container {
     grid-template-columns: 1fr;
   }
   .choose_card:nth-child(3) {
     max-width: 100%;
   }
+  /* for deals */
+   .deals_card_container{
+    align-items: center;
+    justify-content: center;
+    }
+    .deals_package .deals_card_container:nth-child(2){
+        justify-content: center;
+        align-items: center;
+    }
+
 }
