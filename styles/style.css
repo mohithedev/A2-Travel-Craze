@@ -275,11 +275,12 @@ main {
   background: rgba(19, 19, 24, 0.05);
   margin-bottom: 16px;
 }
-.newsletter_content form input,
-button {
+.newsletter_content form input{
   width: 100%;
 }
-
+#newsletter .primary_btn{
+	width: 100%;
+}
 .newsletter_img {
   position: relative;
 }
