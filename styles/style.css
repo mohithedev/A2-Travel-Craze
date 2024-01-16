@@ -317,6 +317,7 @@ main {
 }
 .perfect_place_content .list .description{
 	color: var(--secondary-clr);
+	font-weight: 700;
 } 
 /* perfect place section style end */
 
